@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 10px;
+  background: #DA22FF;
+  background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);
+  background: linear-gradient(to right, #9733EE, #DA22FF);
+
+
+}
+
+.wrapper {
+  width: 450px;
+  padding: 30px;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0px 0px 5px black;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.wrapper header {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 0 0 1.8px black;
+}
+
+.wrapper form {
+  margin: 40px 0 20px 0;
+
+}
+
+form :where(input, select, button) {
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+form p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-shadow: 0 0 1.8px black;
+}
+
+form input {
+  height: 50px;
+  font-size: 17px;
+  padding: 0 15px;
+  border: 1px solid rgb(0, 0, 0);
+  background: transparent;
+
+}
+
+form input:focus {
+  padding: 0 14px;
+  border: 2px solid #702063;
+}
+
+form .drop-list {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-list .select-box {
+  display: flex;
+  width: 115px;
+  height: 45px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.select-box img {
+  max-width: 21px;
+}
+
+.select-box select {
+  width: auto;
+  font-size: 16px;
+  background: none;
+  margin: 0 -5px 0 5px;
+}
+
+.select-box select::-webkit-scrollbar {
+  width: 8px;
+}
+
+.select-box select::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.select-box select::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+
+.drop-list .icon {
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+form .exchange-rate {
+  font-size: 17px;
+  margin: 40px 0 30px;
+  text-shadow: 0 0 1.8px black;
+}
+
+form button {
+  margin-top: 10px;
+  height: 52px;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: 0.4s ease-in-out;
+  background: #f807c4;
+  box-shadow: 0 0 5px black;
+
+}
+
+form button:hover {
+  background: #16c2b981;
+}
