@@ -13,11 +13,9 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 0 10px;
-  background: #DA22FF;
-  background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);
-  background: linear-gradient(to right, #9733EE, #DA22FF);
-
-
+  background: #00F260;
+  background: -webkit-linear-gradient(to top, #0575E6, #00F260);
+  background: linear-gradient(to top, #0575E6, #00F260);
 }
 
 .wrapper {
@@ -131,11 +129,11 @@ form button {
   cursor: pointer;
   border: 1px solid black;
   transition: 0.4s ease-in-out;
-  background: #f807c4;
+  background: #0575E6;
   box-shadow: 0 0 5px black;
 
 }
 
 form button:hover {
-  background: #16c2b981;
+  background: rgb(43, 105, 167);
 }
