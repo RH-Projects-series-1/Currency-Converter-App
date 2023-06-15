@@ -4,16 +4,16 @@ This is a simple currency converter app built using HTML, CSS, and JavaScript/jQ
 
 ![Currency Converter App](screenshot.png)
 
+## Demo
+
+You can see a live demo of the currency converter app [here](https://rasindu-hansika.github.io/Currency-Converter-App/).
+
 ## Features
 
 - Currency conversion: Convert values between different currencies.
 - Real-time exchange rates: Fetches the latest exchange rates from the exchangerate API.
 - Country flags: Displays the flags of the selected currencies.
 - User-friendly interface: Easy-to-use and intuitive design.
-
-## Demo
-
-You can see a live demo of the currency converter app [here](https://rasindu-hansika.github.io/Currency-Converter-App/).
 
 ## Usage
 - Select the base currency from the dropdown list.
